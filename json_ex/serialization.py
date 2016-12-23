@@ -2,6 +2,6 @@
 import json
 
 file = open("sample.json", "w")
-table = {'Mircea': 123, 'Sorina': 456, 'Ilinca': 789, 'Lia': 123}
+table = {'John': 123, 'Doe': 456, 'Mary': 789, 'Lisa': 123}
 
 json.dump(table, file)
