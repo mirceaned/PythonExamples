@@ -3,7 +3,6 @@ import unittest
 import json
 import serialization
 
-
 class TestSerialization(unittest.TestCase):
 
     def test_load(self):
